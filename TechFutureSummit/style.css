@@ -1,0 +1,67 @@
+header{
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B5FFE1;
+    
+}
+h1{
+    color: #65B891;
+    text-align: center;
+    font-size: xx-large;
+}
+.menu{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #93E5AB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00241B;
+    text-decoration: none;
+}
+.container{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 10px;
+    border: groove #00241B;
+    min-height: 300px; 
+}
+.coluna{
+     background-color: #65B891;
+    border: 1px solid #00241B;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(33% - 40px); 
+    min-width: 280px;
+    box-shadow: 0 2px 4px #65B891;
+    box-sizing: border-box;
+}
+article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #B5FFE1;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00241B;
+}
+
+
+/* 
+B5FFE1
+93E5AB
+65B891
+4E878C
+00241B
+*/
